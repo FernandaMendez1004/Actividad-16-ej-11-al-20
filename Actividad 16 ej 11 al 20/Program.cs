@@ -70,4 +70,14 @@ switch (opcion)
         while (num15 <= 1);
         Console.WriteLine("El numero es positivo");
         break;
+     case 16:
+        Console.WriteLine("Ejercicio 16");
+        string pass;
+        do
+        { Console.WriteLine("Ingrese");
+             pass = Console.ReadLine();
+             }
+        while (pass != "contra123");
+        Console.WriteLine("Contraseña correcta");
+        break;
 }
