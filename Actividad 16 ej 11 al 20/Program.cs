@@ -45,4 +45,21 @@ switch (opcion)
         while (num13 != 0);
         Console.WriteLine($"Se ingresaron {i13} numeros");
         break;
+    case 14:
+        Console.WriteLine( "Ejercicio 14");
+        int num14=0;
+        int mayor=0;
+        do
+        {   Console.WriteLine("Ingrese un numero");
+            num14 = int.Parse(Console.ReadLine());
+            if (num14 > mayor)
+            {
+                mayor = num14;
+            }
+            }
+        while (num14 != 0);
+        Console.WriteLine($"El numero mayor es {mayor}");
+        break;
+    case 15:
+
 }
