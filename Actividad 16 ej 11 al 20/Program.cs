@@ -34,6 +34,15 @@ switch (opcion)
         break;
     case 13:
         Console.WriteLine("Ejercicio 13");
+        int i13 = 0;
+        int num13;
+        do
+        { Console.WriteLine("Ingrese un numero");
+             num13 = int.Parse(Console.ReadLine());
+            i13++;
 
-
+        }
+        while (num13 != 0);
+        Console.WriteLine($"Se ingresaron {i13} numeros");
+        break;
 }
