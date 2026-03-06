@@ -95,5 +95,33 @@ switch (opcion)
         while (num17 != 0);
         Console.WriteLine($"Se ingresaron {i17} numeros pares");
         break;
+    case 18:
+        Console.WriteLine("Ejercicio 18");
+        int opcion18;
+        do
+        {   
+            Console.WriteLine("Seleccione una opción");
+            Console.WriteLine("1 Mostrar saludo\r\n2 Mostrar número aleatorio\r\n0 Salir");
+            opcion18 = int.Parse(Console.ReadLine());
+            switch ( opcion18) {
+                case 1:
+                    Console.WriteLine("Hola");
+                    break;
+                case 2:
+                    Random aleatorio = new Random();
+                    int numero = aleatorio.Next(1, 11);
+                    Console.WriteLine($"Número aleatorio: {numero}");
+                    break;
+                case 0:
+                    Console.WriteLine("Saliendo ....");
+                    break;
+                default:
+                    Console.WriteLine("Opción no válida");
+                    break;
+            }
+        }
+        while (opcion18 != 0) ;
+        Console.WriteLine("Programa finalizado");
+        break ;
 
-}
+        }
