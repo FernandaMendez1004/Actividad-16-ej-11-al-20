@@ -1,5 +1,6 @@
 ﻿Console.WriteLine("Actividad 11 ej 11 al 20");
-Console.WriteLine("Ej ");
+Console.WriteLine("11.Cree un programa que pida al usuario 5 números y calcule la suma total utilizando do-while.\r\n\r\n12. Escriba un programa que pida números al usuario y los sume hasta que el usuario ingrese 0.\r\n\r\n13. Cree un programa que cuente cuántos números ingresó el usuario hasta ingresar el número 0.\r\n\r\n14.Escriba un programa que pida números al usuario hasta ingresar 0 y determine cuál fue el número mayor.\r\n\r\n15. Cree un programa que pida al usuario un número positivo y continúe solicitándolo hasta que el número sea válido. ");
+Console.WriteLine("16.Escriba un programa que pida una contraseña al usuario y continúe solicitándola hasta que sea correcta.\r\n\r\n17.Cree un programa que permita ingresar números y cuente cuántos de ellos son pares hasta que el usuario ingrese 0.\r\n\r\n18.Escriba un programa que implemente un menú que se repita hasta que el usuario elija la opción de salir.\r\n\r\nOpciones del menú:\r\n1 Mostrar saludo\r\n2 Mostrar número aleatorio\r\n0 Salir\r\n\r\n19.Cree un programa que pida un número al usuario y muestre su tabla de multiplicar del 1 al 10 utilizando do-while.\r\n\r\n20.Escriba un programa que pida números al usuario hasta ingresar 0 y al final muestre:\r\n\r\nla suma total de los números\r\n\r\ncuántos números se ingresaron\r\n\r\nel promedio de los números ingresados.");
 Console.WriteLine("Elija una opción:");
 int opcion = int.Parse(Console.ReadLine());
 
