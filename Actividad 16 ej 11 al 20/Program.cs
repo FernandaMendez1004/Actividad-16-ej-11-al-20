@@ -123,5 +123,19 @@ switch (opcion)
         while (opcion18 != 0) ;
         Console.WriteLine("Programa finalizado");
         break ;
-
+        case 19:
+        Console.WriteLine("Ejercicio 19");
+        int num19;
+        int i19=1;
+        Console.WriteLine("Ingrese un numero");
+        num19 = int.Parse(Console.ReadLine());
+        do
+        { 
+            Console.WriteLine($"{num19} * {i19} = {num19 * i19}");
+            i19++;
         }
+        while (i19 <= 10);
+        break;
+        case 20:
+
+}
