@@ -80,4 +80,20 @@ switch (opcion)
         while (pass != "contra123");
         Console.WriteLine("Contraseña correcta");
         break;
+    case 17:
+        Console.WriteLine("Ejercicio 17");
+        int num17;
+        int i17=0;
+        do
+        { Console.WriteLine("Ingrese un numero"); 
+        num17 = int.Parse(Console.ReadLine());
+            if (num17 % 2 == 0)
+            {
+                i17++;
+            }
+        }
+        while (num17 != 0);
+        Console.WriteLine($"Se ingresaron {i17} numeros pares");
+        break;
+
 }
