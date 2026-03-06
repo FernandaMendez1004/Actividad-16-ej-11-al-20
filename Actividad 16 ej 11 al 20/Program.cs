@@ -61,5 +61,13 @@ switch (opcion)
         Console.WriteLine($"El numero mayor es {mayor}");
         break;
     case 15:
-
+        Console.WriteLine("Ejercicio 15");
+        int num15=0;
+        do 
+            { Console.WriteLine("Ingrese un numero");
+                num15 = int.Parse(Console.ReadLine());
+            }
+        while (num15 <= 1);
+        Console.WriteLine("El numero es positivo");
+        break;
 }
